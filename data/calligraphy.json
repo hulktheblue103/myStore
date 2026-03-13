@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": "calli-001",
+      "title": "BarakAllahu Lakuma wa Baraka 'Alaikuma wa Jama'a Baynakuma fi Khair",
+      "description": "Dua for married couple - 'May Allah bless you and shower His blessings upon you both and unite you in goodness.' Beautifully rendered in elegant calligraphy script on high-quality art canvas. A meaningful gift for weddings, anniversaries, or housewarmings.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Canvas" },
+        { "label": "Size", "value": "30 × 40 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-001.jpeg",
+      "price": "£34.99",
+      "featured": true,
+      "tags": ["Dua", "Canvas", "Wedding", "Anniversary"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-002",
+      "title": "La Ilaha IllAllah Muhammadur Rasulullah — Circular Composition",
+      "description": "The declaration of faith rendered in sweeping hand-drawn Arabic script, arranged in a bold interlocking circular medallion. A powerful statement piece for the home or office.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Canvas" },
+        { "label": "Size", "value": "30 × 40 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-002.jpeg",
+      "price": "£34.99",
+      "featured": true,
+      "tags": ["Dua", "Canvas", "Circular", "Shahada"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-003",
+      "title": "Alhamdulillah — Elongated Script, Black Frame",
+      "description": "A striking minimalist rendering of the phrase 'Alhamdulillah' (All praise is due to Allah) in free-flowing Arabic script. A dramatic continuous stroke carries the letters, balancing elegance with bold expression. Presented in a sleek black frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Black frame with stand" },
+        { "label": "Size", "value": "13 × 18 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-003.jpeg",
+      "price": "£13.49",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-004",
+      "title": "Alhamdulillah — Elongated Script, White Frame",
+      "description": "A striking minimalist rendering of the phrase 'Alhamdulillah' (All praise is due to Allah) in free-flowing Arabic script. A dramatic continuous stroke carries the letters, balancing elegance with bold expression. Presented in a clean white frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "White frame with stand" },
+        { "label": "Size", "value": "13 × 18 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-004.jpeg",
+      "price": "£13.49",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-005",
+      "title": "HasbiAllah — Oak Frame",
+      "description": "'Allah is sufficient for us' — a beloved Quranic phrase (from 3:173) rendered in bold, expressive Arabic calligraphy. Set in a warm natural oak frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Natural Oak Frame with stand" },
+        { "label": "Size", "value": "16 × 21 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-005.jpeg",
+      "price": "£20.99",
+      "featured": true,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-006",
+      "title": "HasbiAllah — White Frame",
+      "description": "'Allah is sufficient for us' — a beloved Quranic phrase (from 3:173) rendered in bold, expressive Arabic calligraphy. Presented in a clean white frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "White frame with stand" },
+        { "label": "Size", "value": "16 × 21 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-006.png",
+      "price": "£20.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    }
+  ]
+}

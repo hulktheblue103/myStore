@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blueProphecy — Handcrafted Art & Apparel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+    <!-- ===================== HEADER ===================== -->
+    <!-- UPDATE NAV: if you add a new category, add a link here and in all other pages -->
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="nav-logo">blueProphecy</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="calligraphy.html">Calligraphy</a></li>
+                    <li><a href="crafts.html">Crafts</a></li>
+                    <li><a href="tshirt.html">T-Shirts</a></li>
+                    <li><a href="paints.html">Paintings</a></li>
+                </ul>
+            </nav>
+            <button class="nav-hamburger" id="nav-hamburger-btn" aria-label="Open menu" aria-expanded="false">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile nav drawer -->
+    <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+        <div class="nav-drawer-overlay" id="nav-drawer-overlay"></div>
+        <div class="nav-drawer-panel">
+            <button class="nav-drawer-close" id="nav-drawer-close" aria-label="Close menu">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+            <a href="index.html">Home</a>
+            <a href="calligraphy.html">Calligraphy</a>
+            <a href="crafts.html">Crafts</a>
+            <a href="tshirt.html">T-Shirts</a>
+            <a href="paints.html">Paintings</a>
+        </div>
+    </div>
+
+    <!-- ===================== HOME HERO ===================== -->
+    <section class="home-hero">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <h1>blueProphecy</h1>
+        <p>Handcrafted calligraphy, artisan crafts, and custom apparel — made with intention, shipped to you.</p>
+        <div class="home-hero-cta">
+            <a href="calligraphy.html" class="btn-primary">Shop Calligraphy</a>
+            <a href="crafts.html" class="btn-outline">Explore Crafts</a>
+        </div>
+    </section>
+
+    <!-- ===================== CATEGORY CARDS ===================== -->
+    <!-- UPDATE CATEGORIES: add a new <a class="category-card"> block here for each new category -->
+    <section class="category-section">
+        <h2 class="category-section-heading">Browse Our Collections</h2>
+        <div class="category-grid">
+
+            <a href="calligraphy.html" class="category-card">
+                <div class="category-card-image">
+                    <img
+                        src="assets/calligraphy/calli-001.jpeg"
+                        alt="Calligraphy collection"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="category-card-body">
+                    <h3>Calligraphy</h3>
+                    <p>Custom name prints, wedding vows, Arabic script, and bespoke hand-lettering for every occasion.</p>
+                    <span class="category-card-link">Explore Calligraphy &rarr;</span>
+                </div>
+            </a>
+
+            <a href="crafts.html" class="category-card">
+                <div class="category-card-image">
+                    <img
+                        src="assets/crafts/craft-001.jpeg"
+                        alt="Crafts collection"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="category-card-body">
+                    <h3>Crafts</h3>
+                    <p>Macramé wall hangings, hand-poured soy candles, resin art, and more handmade treasures.</p>
+                    <span class="category-card-link">Explore Crafts &rarr;</span>
+                </div>
+            </a>
+
+            <a href="tshirt.html" class="category-card">
+                <div class="category-card-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=340&fit=crop"
+                        alt="T-Shirts collection"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="category-card-body">
+                    <h3>T-Shirts</h3>
+                    <p>Original graphic tees featuring calligraphy art, Arabic script prints, and minimalist designs.</p>
+                    <span class="category-card-link">Explore T-Shirts &rarr;</span>
+                </div>
+            </a>
+
+            <a href="paints.html" class="category-card">
+                <div class="category-card-image">
+                    <img
+                        src="assets/paints/paint-001.jpeg"
+                        alt="Paintings collection"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="category-card-body">
+                    <h3>Paintings</h3>
+                    <p>Original abstract mixed-media paintings on canvas — vivid acrylics, embedded seashells, and one-of-a-kind compositions.</p>
+                    <span class="category-card-link">Explore Paintings &rarr;</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        &copy; 2026 blueProphecy.
+    </footer>
+
+    <div id="page-transition-overlay" aria-hidden="true"></div>
+    <script src="js/animations.js"></script>
+    <script>
+        // Mobile nav hamburger toggle
+        (function () {
+            var btn = document.getElementById('nav-hamburger-btn');
+            var drawer = document.getElementById('nav-drawer');
+            var overlay = document.getElementById('nav-drawer-overlay');
+            var closeBtn = document.getElementById('nav-drawer-close');
+            function openDrawer() { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); btn.setAttribute('aria-expanded', 'true'); }
+            function closeDrawer() { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); btn.setAttribute('aria-expanded', 'false'); }
+            btn.addEventListener('click', openDrawer);
+            overlay.addEventListener('click', closeDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+        })();
+    </script>
+</body>
+</html>
