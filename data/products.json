@@ -1,0 +1,101 @@
+// This file is for example purposes only.
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "title": "Wireless Bluetooth Headphones",
+      "description": "Premium noise-canceling headphones with 30-hour battery life and crystal-clear audio quality.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+      "price": "$79.99",
+      "tags": ["electronics", "audio", "featured"],
+      "links": [
+        { "name": "eBay", "url": "https://www.ebay.com", "icon": "ebay" },
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" }
+      ]
+    },
+    {
+      "id": "prod-002",
+      "title": "Vintage Leather Watch",
+      "description": "Classic analog watch with genuine leather strap and water-resistant design.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "price": "$149.99",
+      "tags": ["accessories", "fashion", "featured"],
+      "links": [
+        { "name": "eBay", "url": "https://www.ebay.com", "icon": "ebay" },
+        { "name": "Etsy", "url": "https://www.etsy.com", "icon": "etsy" }
+      ]
+    },
+    {
+      "id": "prod-003",
+      "title": "Minimalist Desk Lamp",
+      "description": "Modern LED desk lamp with adjustable brightness and USB charging port.",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=400&fit=crop",
+      "price": "$45.00",
+      "tags": ["home", "lighting"],
+      "links": [
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" },
+        { "name": "Walmart", "url": "https://www.walmart.com", "icon": "walmart" }
+      ]
+    },
+    {
+      "id": "prod-004",
+      "title": "Organic Cotton T-Shirt",
+      "description": "Soft, sustainable t-shirt made from 100% organic cotton. Available in multiple colors.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+      "price": "$29.99",
+      "tags": ["fashion", "clothing"],
+      "links": [
+        { "name": "Etsy", "url": "https://www.etsy.com", "icon": "etsy" },
+        { "name": "eBay", "url": "https://www.ebay.com", "icon": "ebay" }
+      ]
+    },
+    {
+      "id": "prod-005",
+      "title": "Portable Power Bank",
+      "description": "20,000mAh power bank with fast charging support for all your devices.",
+      "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop",
+      "price": "$39.99",
+      "tags": ["electronics", "accessories"],
+      "links": [
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" },
+        { "name": "eBay", "url": "https://www.ebay.com", "icon": "ebay" }
+      ]
+    },
+    {
+      "id": "prod-006",
+      "title": "Ceramic Coffee Mug Set",
+      "description": "Set of 4 handcrafted ceramic mugs. Microwave and dishwasher safe.",
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop",
+      "price": "$34.99",
+      "tags": ["home", "kitchen"],
+      "links": [
+        { "name": "Etsy", "url": "https://www.etsy.com", "icon": "etsy" },
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" }
+      ]
+    },
+    {
+      "id": "prod-007",
+      "title": "Mechanical Gaming Keyboard",
+      "description": "RGB backlit mechanical keyboard with cherry MX switches and programmable keys.",
+      "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=400&fit=crop",
+      "price": "$119.99",
+      "tags": ["electronics", "gaming", "featured"],
+      "links": [
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" },
+        { "name": "eBay", "url": "https://www.ebay.com", "icon": "ebay" }
+      ]
+    },
+    {
+      "id": "prod-008",
+      "title": "Yoga Mat Premium",
+      "description": "Extra thick, non-slip yoga mat with carrying strap. Perfect for home workouts.",
+      "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=400&fit=crop",
+      "price": "$49.99",
+      "tags": ["fitness", "sports"],
+      "links": [
+        { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon" },
+        { "name": "Walmart", "url": "https://www.walmart.com", "icon": "walmart" }
+      ]
+    }
+  ]
+}

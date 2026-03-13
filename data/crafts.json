@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": "craft-001",
+      "title": "Personalised Welcome Home Wooden Sign",
+      "description": "A cheerful hand-painted wooden sign made from five painted slat boards, each in a different bright colour (pink, blue, yellow, purple, green). The boards read 'Welcome To Our Tiny, Comfy, Happy Always Blessed Full of Love HOME' with your chosen name(s) at the bottom. Finished with a decorative bow and woolen flower. A warm, personal touch for any front door or hallway.",
+      "details": [
+        { "label": "Material", "value": "Painted Wood Slats" },
+        { "label": "Boards", "value": "5 panels" },
+        { "label": "Style", "value": "Handpainted, multi-colour" },
+        { "label": "Customizable", "value": "Yes — family name(s)" }
+      ],
+      "image": "assets/crafts/craft-001.jpeg",
+      "price": "£14.99",
+      "featured": true,
+      "tags": ["home-decor", "personalized", "gift", "sign"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "craft-002",
+      "title": "3D Yarn Flower Garden — Mixed Media Canvas",
+      "description": "A vibrant mixed-media canvas featuring individually hand-crocheted yarn flowers in full bloom. Each flower is crafted from colourful wool in shades of blue, red, hot pink, orange, purple, and cream, and mounted on a stretched white canvas over painted green stem-and-leaf details. A gold ribbon trims the bottom edge for an elegant finish. This one-of-a-kind piece brings a burst of cheerful colour and texture to any wall.",
+      "details": [
+        { "label": "Material", "value": "Yarn & Acrylic on Stretched Canvas" },
+        { "label": "Size", "value": "20 × 20 cm" },
+        { "label": "Technique", "value": "Crocheted 3D flowers" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/crafts/craft-002.jpeg",
+      "price": "£14.99",
+      "featured": true,
+      "tags": ["canvas", "yarn", "wall-decor", "flowers"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "craft-003",
+      "title": "Yarn-Wrapped Decorative Bottle Vase",
+      "description": "A plain bottle transformed into a glamorous home accent through the art of yarn wrapping. Entirely encased in vibrant hot pink yarn, the bottle is embellished with mirrored circular studs, delicate crystal flower motifs, and crowned with an explosion of hot pink feather plumes. A bold statement piece for any shelf, mantelpiece, or side table.",
+      "details": [
+        { "label": "Material", "value": "Yarn, Rhinestone Studs, Crystal Embellishments, Feathers" },
+        { "label": "Colour", "value": "Hot Pink / Magenta" },
+        { "label": "Type", "value": "Decorative Bottle Art" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/crafts/craft-003.jpeg",
+      "price": "£12.49",
+      "featured": false,
+      "tags": ["home-decor", "bottle-art", "yarn", "decorative"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    }
+  ]
+}

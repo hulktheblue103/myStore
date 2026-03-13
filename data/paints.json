@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "paint-001",
+      "title": "Shell Symphony — Abstract Mixed-Media Canvas",
+      "description": "Original abstract mixed-media painting on stretched canvas. Five real cockle shells are embedded into a vivid acrylic background of reds, oranges, and yellows. Blue butterfly rests at upper left, woven into a web of dynamic black-and-white paint drips and splatter.",
+      "details": [
+        { "label": "Medium", "value": "Acrylic & Mixed Media on Canvas" },
+        { "label": "Size", "value": "20 × 20 cm" },
+        { "label": "Style", "value": "Abstract Expressionist" },
+        { "label": "Original", "value": "One of a kind" }
+      ],
+      "image": "assets/paints/paint-001.jpeg",
+      "price": "£27.99",
+      "featured": true,
+      "tags": ["abstract", "mixed-media", "original", "canvas"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    }
+  ]
+}

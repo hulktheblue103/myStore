@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirts — blueProphecy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+    <!-- ===================== HEADER ===================== -->
+    <!-- UPDATE NAV: if you add a new category, add a link here and in all other pages -->
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a href="index.html" class="nav-logo">blueProphecy</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="calligraphy.html">Calligraphy</a></li>
+                    <li><a href="crafts.html">Crafts</a></li>
+                    <li><a href="tshirt.html" aria-current="page">T-Shirts</a></li>
+                    <li><a href="paints.html">Paintings</a></li>
+                </ul>
+            </nav>
+            <button class="nav-hamburger" id="nav-hamburger-btn" aria-label="Open menu" aria-expanded="false">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile nav drawer -->
+    <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+        <div class="nav-drawer-overlay" id="nav-drawer-overlay"></div>
+        <div class="nav-drawer-panel">
+            <button class="nav-drawer-close" id="nav-drawer-close" aria-label="Close menu">
+                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+            <a href="index.html">Home</a>
+            <a href="calligraphy.html">Calligraphy</a>
+            <a href="crafts.html">Crafts</a>
+            <a href="tshirt.html" aria-current="page">T-Shirts</a>
+            <a href="paints.html">Paintings</a>
+        </div>
+    </div>
+
+    <!-- ===================== COMING SOON ===================== -->
+    <main class="flex-1 flex items-center justify-center px-4 py-24">
+        <div class="coming-soon-banner text-center">
+            <p class="coming-soon-label">Coming Soon</p>
+            <h1 class="coming-soon-title">T-Shirts</h1>
+            <p class="coming-soon-body">We're working on something great. Original graphic tees featuring calligraphy art, Arabic script prints, and minimalist designs — dropping soon.</p>
+            <a href="index.html" class="btn-primary" style="display:inline-block;margin-top:2rem;">Back to Home</a>
+        </div>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        &copy; 2026 blueProphecy.
+    </footer>
+
+    <div id="page-transition-overlay" aria-hidden="true"></div>
+    <script src="js/animations.js"></script>
+    <script>
+        // Mobile nav hamburger toggle
+        (function () {
+            var btn = document.getElementById('nav-hamburger-btn');
+            var drawer = document.getElementById('nav-drawer');
+            var overlay = document.getElementById('nav-drawer-overlay');
+            var closeBtn = document.getElementById('nav-drawer-close');
+            function openDrawer() { drawer.classList.add('open'); drawer.setAttribute('aria-hidden', 'false'); btn.setAttribute('aria-expanded', 'true'); }
+            function closeDrawer() { drawer.classList.remove('open'); drawer.setAttribute('aria-hidden', 'true'); btn.setAttribute('aria-expanded', 'false'); }
+            btn.addEventListener('click', openDrawer);
+            overlay.addEventListener('click', closeDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+        })();
+    </script>
+</body>
+</html>
