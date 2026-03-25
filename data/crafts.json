@@ -59,6 +59,46 @@
         "messenger": "https://m.me/blueprophecy",
         "whatsapp": "https://wa.me/447564533953"
       }
+    },
+    {
+      "id": "craft-004",
+      "title": "3D Button Flowers - Mixed Media Canvas",
+      "description": "A charming mixed-media canvas featuring a bouquet of hand-crafted 3D flowers made from an assortment of buttons in various sizes and colours. Each button flower is carefully arranged and mounted on a stretched canvas, creating a delightful textured artwork that adds a touch of whimsy and colour to any space. Perfect for brightening up a room or as a unique gift.",
+      "details": [
+        { "label": "Material", "value": "Buttons on Stretched Canvas" },
+        { "label": "Size", "value": "20 × 20 cm" },
+        { "label": "Technique", "value": "3D Button Art" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/crafts/craft-004.jpeg",
+      "price": "£14.99",
+      "featured": false,
+      "tags": ["wall-decor", "flowers", "button-art", "canvas"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "craft-005",
+      "title": "Glass Patterned Art Piece",
+      "description": "A unique handmade craft piece featuring intricate glass patterning. Contact us to enquire or request a custom version.",
+      "details": [
+        { "label": "Material", "value": "Handmade" },
+        { "label": "Size", "value": "20 × 20 cm" },
+        { "label": "Technique", "value": "Glass Patterning" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/crafts/craft-005.jpeg",
+      "price": "£11.49",
+      "featured": false,
+      "tags": ["wall-decor", "glass-art"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
     }
   ]
 }
