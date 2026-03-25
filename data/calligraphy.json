@@ -123,6 +123,111 @@
         "messenger": "https://m.me/blueprophecy",
         "whatsapp": "https://wa.me/447564533953"
       }
+    },
+    {
+      "id": "calli-007",
+      "title": "SubhanAllah — Black Frame",
+      "description": "One of Allah's most beautiful names, 'SubhanAllah' (Glory be to Allah) rendered in flowing hand-drawn Arabic script. Presented in a sleek black frame, this piece makes a powerful statement of faith and beauty.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Black frame with stand" },
+        { "label": "Size", "value": "23 × 29 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-007.jpg",
+      "price": "£34.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-008",
+      "title": "Allahu Akbar — Wooden Frame",
+      "description": "Allahu Akbar - Allah is the greatest. A powerful declaration of faith, rendered in elegant Arabic calligraphy with colored background. Presented in a warm wooden frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Wooden frame with stand" },
+        { "label": "Size", "value": "13 × 18 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-008.jpg",
+      "price": "£17.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed", "Color"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-009",
+      "title": "Allahu - Black Frame",
+      "description": "Allahu - the name of the God Almighty, rendered in bold, flowing Arabic calligraphy. A powerful statement piece for the home or office, presented in a sleek black frame.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Black frame with stand" },
+        { "label": "Size", "value": "16 × 21 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-009.jpg",
+      "price": "£23.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed", "Color"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-010",
+      "title": "SubhanAllah — White Frame",
+      "description": "One of Allah's most beautiful names, 'SubhanAllah' (Glory be to Allah) rendered in flowing hand-drawn Arabic script. Presented in a sleek white frame, this piece makes a powerful statement of faith and beauty.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "White frame with stand" },
+        { "label": "Size", "value": "16 × 21 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-010.jpg",
+      "price": "£23.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed", "Color"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
+    },
+    {
+      "id": "calli-011",
+      "title": "Bismillah hir Rahman nir Raheem — Wooden Frame",
+      "description": "The opening phrase of the Quran and any Surah, 'Bismillah hir Rahman nir Raheem' (In the name of Allah, the Most Gracious, the Most Merciful) rendered in elegant Arabic calligraphy. Presented in a warm wooden frame, this piece is perfect for any space.",
+      "details": [
+        { "label": "Medium", "value": "Ink on Art Paper" },
+        { "label": "Frame", "value": "Wooden frame with stand" },
+        { "label": "Size", "value": "33 × 28 cm" },
+        { "label": "Style", "value": "Hand-drawn, free-form" },
+        { "label": "Customizable", "value": "Yes" }
+      ],
+      "image": "assets/calligraphy/calli-011.jpeg",
+      "price": "£34.99",
+      "featured": false,
+      "tags": ["Dua", "Canvas", "Framed"],
+      "links": [],
+      "contact": {
+        "messenger": "https://m.me/blueprophecy",
+        "whatsapp": "https://wa.me/447564533953"
+      }
     }
   ]
 }
